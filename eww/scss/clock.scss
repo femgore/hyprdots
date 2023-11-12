@@ -1,0 +1,18 @@
+.clock {
+    border-radius: 0rem;
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+.big_clock_box {
+    @include window;
+    margin-top: -4.8rem;
+    margin-right: 69.53rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+
+}
+
+.big_clock_label {
+    font-size: 1rem;
+    color: $primary;
+}
